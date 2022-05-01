@@ -11,7 +11,7 @@ Note that this app doesn't use any DB so the information is stored just as long 
 1. If you don't have apache tomcat 9 yet you can download it from [here](https://tomcat.apache.org/download-90.cgi).
 2. Download this project and unzip it, then move it under the webapps folder in apache home.
 3. Start apache server. You can do it by running startup.sh (for bash) or startup.bat (for cmd), both under bin folder in apache home.
-4. Go to your browser and go to http://localhost:8080/surveyApp/index.html and see the survey page.
+4. Go to your browser and go to ```http://localhost:8080/surveyApp/index.html``` and see the survey page.
 5. You can also vote or get survey data via api:
-     - Getting data - GET request to http://localhost:8080/surveyApp/api/survey/
-     - Voting - POST data with json of the form {"vote": "some-option"} to http://localhost:8080/surveyApp/api/survey/
+     - Getting data - GET request to ```http://localhost:8080/surveyApp/api/survey/```
+     - Voting - POST data with json of the form ```{"vote": "some-option"}``` to ```http://localhost:8080/surveyApp/api/survey/```
