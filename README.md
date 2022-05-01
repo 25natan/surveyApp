@@ -7,7 +7,7 @@ The question and options for the survey are written in the survey.txt and can be
 but there should be at least question and 2 answers. 
 Note that this app doesn't use any DB so the information is stored just as long as the app running.
 
-## Run this app with apache tomcat 9:
+## Run this app with apache tomcat 9
 1. If you don't have apache tomcat 9 yet you can download it from [here](https://tomcat.apache.org/download-90.cgi).
 2. Download this project and unzip it, then move it under the webapps folder in apache home.
 3. Start apache server. You can do it by running startup.sh (for bash) or startup.bat (for cmd), both under bin folder in apache home.
